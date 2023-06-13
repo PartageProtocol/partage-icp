@@ -91,33 +91,36 @@
 </head>
 <body>
     <div class="container">
-      <div class="title-container">
-        <h1>Voting Poll</h1>
+      <div>
+        <h1>Partage - Shared NFT Utilities on Bitcoin</h1>
+        <h3>
+          Up and running at <a href="https://hellopartage.xyz">https://hellopartage.xyz</a>.
+        </h3>
+        <h3>
+          Partage-v1 contains functions to mint, transfer, burn and fractionalize NFTs, list/unlist fractions for sale, transfer and burn fractions.
+        </h3>
+        <div class="title-container">
+          <h1>Voting Poll</h1>
+        </div>
       </div>
       <h2 id="question">Sample Question</h2>
-
-      <!-- Form where users vote -->
       <div class="form-container">
         <form id="radioForm">
             <label>
-                <input type="radio" name="option" value="Rust"> yes
+                <input type="radio" name="option" value="yes"> yes
             </label><br>
             <label>
-                <input type="radio" name="option" value="Motoko"> no
+                <input type="radio" name="option" value="no"> no
             </label><br>
             <label>
-                <input type="radio" name="option" value="TypeScript"> why not?
+                <input type="radio" name="option" value="why not?"> why not?
             </label><br>
             <button type="submit">Vote</button>
         </form>
       </div>
-
-      <!-- Poll results appear here-->
       <h2 id="results-title">Results</h2>
       <div id="results"></div>
     </div>
-    <button id="reset">Reset Poll</button>
-
 
 </body>
 </html>
