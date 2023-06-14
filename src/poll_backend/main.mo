@@ -71,14 +71,14 @@ actor {
     //Return the number of votes as an array (so frontend can display it)
     Iter.toArray(votes.entries())
   };
-
+  /*
   public func resetVotes() : async [(Text, Nat)] {
       votes.put("yes", 0);
       votes.put("no", 0);
       votes.put("why not?", 0);
       Iter.toArray(votes.entries())
   };
-
+*/
 /*
 // nft-related functions
   // mint-nft 
